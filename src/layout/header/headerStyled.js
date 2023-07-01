@@ -11,6 +11,7 @@ export const HeaderStyled = styled.div`
 
 .submitButton {
     min-width: 180px !important;
+    font-size: 18px !important;
 }
 
 .navLink {
