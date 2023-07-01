@@ -4,6 +4,7 @@ import { FooterStyled } from './FooterStyled';
 import Link from 'next/link';
 import MyButton from '@/common/button/button';
 import TextWithUnderline from '@/common/textWithUnderline/textWithUnderline';
+import { BsCalendar2Minus } from 'react-icons/bs';
 
 const Footer = () => {
   return (
@@ -32,12 +33,15 @@ const Footer = () => {
               <Link href={'/'} className='LinkText'>Contact Us</Link>
             </Col>
             <Col lg={4} md={12} xs={12}>
-              <div>
-                <div className='d-inline'>
+                <div className=' conference'>
+                  <span>
                   Next Conference
+                  </span>
+                  <span className=''> &nbsp;
+                    <BsCalendar2Minus />
                   <TextWithUnderline text={'India'} />
+                  </span>
                 </div>
-              </div>
             </Col>
           </Row>
           <div className='borderClass'></div>

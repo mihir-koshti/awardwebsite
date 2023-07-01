@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
 
 export const TextStyled = styled.div`
+display: inline;
   .link-underlined {
     font-size: 23px;
     padding:12px;

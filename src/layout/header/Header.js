@@ -37,8 +37,8 @@ const Header = () => {
               })}
             </NavDropdown>
           </Form>
-           <NavLink className='navLink'>Login </NavLink>
-           <NavLink className='navLink'>Sign up </NavLink>
+           <NavLink className='navLink font-weight-bold'>Login </NavLink>
+           <NavLink className='navLink font-weight-bold'>Sign up </NavLink>
            {/* <div> */}
 
            <MyButton variant={'dark'} title={'Be Pro'} className={'buttonSize mx-2'}/>

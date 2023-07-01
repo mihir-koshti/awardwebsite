@@ -80,6 +80,10 @@ background-color: #e9e9e9 !important;
     .marquee{
         font-size: 21px;
     }
+    .button {
+        padding : 12px;
+        font-size: 15px;
+    }
 }
 
 @media (max-width:${({ theme }) => theme.size.mobileL}) {
@@ -93,6 +97,10 @@ background-color: #e9e9e9 !important;
     .mainHover {
         margin: 0px !important;
     }
+    .button {
+        padding : 10px;
+        font-size: 12px;
+    }
 }
 
 @media (max-width:${({ theme }) => theme.size.mobileM}) {
@@ -102,6 +110,10 @@ background-color: #e9e9e9 !important;
     }   
     .marquee{
         font-size: 11px;
+    }
+    .button {
+        padding : 7px;
+        font-size: 10px;
     }
 }
 

@@ -26,4 +26,10 @@ export const FooterStyled = styled.div`
 .borderClass{
     border: 3px dashed black;
 }
+.conference{
+    background-color: ${({theme}) => theme.colors.bgColor};
+    padding: 12px;
+    border-radius: 15px;
+    width: fit-content;
+}
 `;
