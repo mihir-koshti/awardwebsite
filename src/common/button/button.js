@@ -5,7 +5,7 @@ import { ButtonStyled } from './buttonStyled';
  const MyButton = ({variant, className, title}) => {
   return (
     <ButtonStyled>
-      <Button variant={variant} className={ 'defaultButton ' + className }>{title}</Button>
+      <Button variant={variant} className={'defaultButton ' + className }>{title}</Button>
     </ButtonStyled>
   )
 }

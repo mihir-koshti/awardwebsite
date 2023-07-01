@@ -7,11 +7,11 @@ export const HeaderStyled = styled.div`
 .buttonSize{
     min-width: 100px;
     padding: 10px !important;
+    font-size: 18px !important;
 }
 
 .submitButton {
     min-width: 180px !important;
-    font-size: 18px !important;
 }
 
 .navLink {
