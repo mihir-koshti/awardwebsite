@@ -13,7 +13,7 @@ const Header = () => {
       <Container>
         <Navbar.Brand href="#" className='font-weight-bold'>W.</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
+        <Navbar.Collapse id="navbarScroll" className='display-mobile'>
           <Nav
             className="me-auto my-2 my-lg-0"
             style={{ maxHeight: '100px',width: '-webkit-fill-available' }}

@@ -10,7 +10,7 @@ export const HeaderStyled = styled.div`
 }
 
 .submitButton {
-    min-width: 150px !important;
+    min-width: 180px !important;
 }
 
 .navLink {
@@ -42,5 +42,17 @@ export const HeaderStyled = styled.div`
     border: none;
     background-color: darkgray;
 
+}
+
+@media (max-width: ${({theme }) => theme.size.laptop}) {
+    .submitButton {
+        min-width: 150px !important;
+    }
+}
+
+@media (max-width: ${({theme }) => theme.size.tablet}) {
+    .display-mobile {
+        display: none;
+    }
 }
 `
