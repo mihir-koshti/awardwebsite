@@ -1,0 +1,17 @@
+html,
+body {
+    font-family: apercu, sans-serif;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.font-weight-800 {
+    font-weight: 900;
+}
+
+.spacing {
+    margin-top: 6rem !important;
+    margin-bottom: 3rem !important;
+}
